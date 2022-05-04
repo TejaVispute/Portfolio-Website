@@ -1,0 +1,73 @@
+/* default margin padding to 0px and added font family for our content */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.img1 {
+
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.container nav img {
+    display: inline;
+}
+
+body {
+    background: url(/bg2.jpg);
+    background-position: center center cover;
+    background-repeat: no-repeat;
+}
+
+/* for heading */
+
+.secondcont h2 {
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* for making our list horizontal */
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: -46px;
+
+}
+
+/* hover for navbar  */
+.list :hover {
+    color: red;
+}
+
+/* navbar font size margin and padding */
+li {
+    font-size: 20px;
+    list-style: none;
+    margin: 7px 10px;
+}
+
+/* navbar color changed to white smoke */
+li a {
+    color: whitesmoke;
+}
+
+/* navigation height mentioned and navigation color changed to black */
+nav {
+    height: 45px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+.secondcont {
+    text-align: center;
+    margin-top: 100px;
+
+}
